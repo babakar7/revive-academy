@@ -20,7 +20,7 @@ export const HERO_CONTENT = {
   description:
     "L'academie de formation Pilates de haut niveau au Senegal. Rejoignez un cursus d'excellence alliant rigueur scientifique, expertise internationale et cadre exceptionnel. Notre programme complet vous prepare a maitriser la methode Pilates et a lancer une carriere epanouissante dans le coaching.",
   primaryCta: "Decouvrir nos formations",
-  secondaryCta: "Prendre rendez-vous",
+  secondaryCta: "Postuler",
   badges: [
     "Certification Balanced Body",
     "20+ ans d'experience",
