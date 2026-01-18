@@ -129,7 +129,7 @@ export function ContactForm() {
       <Container size="narrow">
         <SectionHeading
           eyebrow="Postuler"
-          title="Pret a Transformer Votre Passion en Metier ?"
+          title="Prêt a Transformer Votre Passion en Metier ?"
           description="Remplissez le formulaire ci-dessous pour demarrer votre candidature. Nous vous contacterons pour planifier votre entretien."
         />
 
@@ -212,10 +212,10 @@ export function ContactForm() {
               {isSubmitting ? (
                 "Envoi en cours..."
               ) : (
-                <>
+                <span className="inline-flex items-center">
                   <Send size={18} className="mr-2" />
                   Envoyer ma candidature
-                </>
+                </span>
               )}
             </Button>
 

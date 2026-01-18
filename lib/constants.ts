@@ -173,8 +173,8 @@ export const WHY_CHOOSE = [
 export const PRACTICAL_INFO = {
   nextSession: "Fin mars / avril 2026",
   location: "Studio Revive, Almadies, Dakar",
-  frequency: "2 a 3 sessions par an",
-  maxParticipants: "10 participants maximum par session",
+  frequency: "2 a 3 formations par an",
+  maxParticipants: "10 participants maximum par formation",
   certification: "Diplome Revive Academie",
   enrollmentSteps: [
     {
