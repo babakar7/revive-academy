@@ -16,9 +16,9 @@ export function ProgramDetails() {
     <section className="py-20 md:py-28 bg-[var(--color-beige)]">
       <Container>
         <SectionHeading
-          eyebrow="Detail des programmes"
+          eyebrow="Détail des programmes"
           title="Contenu des Formations"
-          description="Decouvrez en detail le contenu pedagogique de chaque parcours de formation."
+          description="Découvrez en détail le contenu pédagogique de chaque parcours de formation."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -66,7 +66,7 @@ export function ProgramDetails() {
               />
               <div>
                 <span className="font-medium text-[var(--color-dark)] text-sm">
-                  Prerequis
+                  Prérequis
                 </span>
                 <p className="text-sm text-[var(--color-dark)]/70 mt-1">
                   {mat1.prerequisite}
@@ -120,7 +120,7 @@ export function ProgramDetails() {
               />
               <div>
                 <span className="font-medium text-[var(--color-dark)] text-sm">
-                  Prerequis
+                  Prérequis
                 </span>
                 <p className="text-sm text-[var(--color-dark)]/70 mt-1">
                   {reformer1.prerequisite}

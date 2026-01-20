@@ -9,7 +9,7 @@ import { Calendar, MapPin, Users, Award, Clock } from "lucide-react";
 const infoItems = [
   { icon: Calendar, title: "Prochaine session", key: "nextSession" },
   { icon: MapPin, title: "Lieu", key: "location" },
-  { icon: Clock, title: "Frequence", key: "frequency" },
+  { icon: Clock, title: "Fréquence", key: "frequency" },
   { icon: Users, title: "Effectif", key: "maxParticipants" },
   { icon: Award, title: "Certification", key: "certification" },
 ] as const;
@@ -20,8 +20,8 @@ export function PracticalInfo() {
       <Container>
         <SectionHeading
           eyebrow="Informations pratiques"
-          title="Modalites de Formation"
-          description="Tout ce que vous devez savoir pour preparer votre formation."
+          title="Modalités de Formation"
+          description="Tout ce que vous devez savoir pour préparer votre formation."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

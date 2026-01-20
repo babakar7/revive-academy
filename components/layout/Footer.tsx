@@ -12,11 +12,11 @@ export function Footer() {
             <div className="flex items-center mb-4">
               <span className="text-xl font-semibold">REVIVE</span>
               <span className="text-xl font-light text-[var(--color-primary-light)] ml-1">
-                ACADEMIE
+                ACADÉMIE
               </span>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              L&apos;academie de formation Pilates de haut niveau au Senegal. Devenez
+              L&apos;académie de formation Pilates de haut niveau au Sénégal. Devenez
               coach certifié avec une formation d&apos;excellence.
             </p>
           </div>
@@ -71,7 +71,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/50 text-sm">
-            © {new Date().getFullYear()} {SITE_CONFIG.name}. Tous droits reserves.
+            © {new Date().getFullYear()} {SITE_CONFIG.name}. Tous droits réservés.
           </p>
           <div className="flex gap-6">
             {FOOTER_LINKS.map((link) => (

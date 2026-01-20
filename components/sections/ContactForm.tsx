@@ -21,6 +21,7 @@ interface FormErrors {
   fullName?: string;
   email?: string;
   phone?: string;
+  program?: string;
   message?: string;
 }
 
@@ -50,7 +51,11 @@ export function ContactForm() {
     }
 
     if (!formData.phone.trim()) {
-      newErrors.phone = "Le telephone est requis";
+      newErrors.phone = "Le téléphone est requis";
+    }
+
+    if (!formData.program) {
+      newErrors.program = "La formation est requise";
     }
 
     if (!formData.message.trim()) {
@@ -73,7 +78,7 @@ export function ContactForm() {
       form.append("fullName", formData.fullName);
       form.append("email", formData.email);
       form.append("phone", formData.phone);
-      form.append("program", formData.program || "Non specifie");
+      form.append("program", formData.program);
       form.append("message", formData.message);
 
       const response = await fetch("https://formbold.com/s/3ZQgR", {
@@ -84,10 +89,10 @@ export function ContactForm() {
       if (response.ok) {
         setIsSubmitted(true);
       } else {
-        alert("Une erreur est survenue. Veuillez reessayer.");
+        alert("Une erreur est survenue. Veuillez réessayer.");
       }
     } catch {
-      alert("Erreur de connexion. Verifiez votre connexion internet.");
+      alert("Erreur de connexion. Vérifiez votre connexion internet.");
     } finally {
       setIsSubmitting(false);
     }
@@ -112,10 +117,10 @@ export function ContactForm() {
               <CheckCircle size={32} className="text-green-600" />
             </div>
             <h3 className="text-2xl font-semibold text-[var(--color-dark)] mb-4">
-              Candidature envoyee !
+              Candidature envoyée !
             </h3>
             <p className="text-[var(--color-dark)]/70">
-              Merci pour votre interet. Nous reviendrons vers vous rapidement
+              Merci pour votre intérêt. Nous reviendrons vers vous rapidement
               pour planifier votre entretien motivationnel.
             </p>
           </div>
@@ -129,8 +134,8 @@ export function ContactForm() {
       <Container size="narrow">
         <SectionHeading
           eyebrow="Postuler"
-          title="Prêt a Transformer Votre Passion en Metier ?"
-          description="Remplissez le formulaire ci-dessous pour demarrer votre candidature. Nous vous contacterons pour planifier votre entretien."
+          title="Prêt à Transformer Votre Passion en Métier ?"
+          description="Remplissez le formulaire ci-dessous pour démarrer votre candidature. Nous vous contacterons pour planifier votre entretien."
         />
 
         <div className="bg-white rounded-2xl p-6 md:p-10 shadow-sm border border-[var(--color-beige)]">
@@ -140,7 +145,7 @@ export function ContactForm() {
                 id="fullName"
                 name="fullName"
                 label="Nom complet *"
-                placeholder="Votre nom et prenom"
+                placeholder="Votre nom et prénom"
                 value={formData.fullName}
                 onChange={handleChange}
                 error={errors.fullName}
@@ -162,7 +167,7 @@ export function ContactForm() {
                 id="phone"
                 name="phone"
                 type="tel"
-                label="Telephone *"
+                label="Téléphone *"
                 placeholder="+221 XX XXX XX XX"
                 value={formData.phone}
                 onChange={handleChange}
@@ -173,30 +178,35 @@ export function ContactForm() {
                   htmlFor="program"
                   className="block text-sm font-medium text-[var(--color-dark)] mb-2"
                 >
-                  Formation souhaitee
+                  Formation souhaitée *
                 </label>
                 <select
                   id="program"
                   name="program"
                   value={formData.program}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-xl border border-[var(--color-beige)] bg-white text-[var(--color-dark)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent transition-all duration-200"
+                  className={`w-full px-4 py-3 rounded-xl border bg-white text-[var(--color-dark)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent transition-all duration-200 ${
+                    errors.program ? "border-red-500" : "border-[var(--color-beige)]"
+                  }`}
                 >
-                  <option value="">Selectionnez une formation</option>
+                  <option value="">Sélectionnez une formation</option>
                   {PROGRAMS.map((program) => (
                     <option key={program.id} value={program.id}>
                       {program.name} - {program.price} {program.currency}
                     </option>
                   ))}
                 </select>
+                {errors.program && (
+                  <p className="mt-1 text-sm text-red-500">{errors.program}</p>
+                )}
               </div>
             </div>
 
             <Textarea
               id="message"
               name="message"
-              label="Message / Motivation *"
-              placeholder="Parlez-nous de votre projet, de vos motivations et de votre parcours..."
+              label="Motivation *"
+              placeholder="Pourquoi souhaitez vous suivre cette formation?"
               rows={5}
               value={formData.message}
               onChange={handleChange}
@@ -220,8 +230,8 @@ export function ContactForm() {
             </Button>
 
             <p className="text-xs text-center text-[var(--color-dark)]/50">
-              En soumettant ce formulaire, vous acceptez d&apos;etre contacte par
-              Revive Academie concernant votre candidature.
+              En soumettant ce formulaire, vous acceptez d&apos;être contacté par
+              Revive Académie concernant votre candidature.
             </p>
           </form>
         </div>

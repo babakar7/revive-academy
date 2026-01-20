@@ -8,9 +8,9 @@ export function FAQ() {
     <section id="faq" className="py-20 md:py-28 bg-[var(--color-cream)]">
       <Container size="narrow">
         <SectionHeading
-          eyebrow="Questions frequentes"
+          eyebrow="Questions fréquentes"
           title="FAQ"
-          description="Trouvez les reponses aux questions les plus frequemment posees sur nos formations."
+          description="Trouvez les réponses aux questions les plus fréquemment posées sur nos formations."
         />
 
         <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-[var(--color-beige)]">

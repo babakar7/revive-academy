@@ -13,24 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Revive Academie | Formation Pilates Certifiante au Senegal",
+  title: "Revive Académie | Formation de Pilates Certifiante au Sénégal",
   description:
-    "Devenez Coach de Pilates Certifié avec Revive Academie. Formation professionnelle de haut niveau a Dakar, Senegal. Certification Balanced Body, encadrement medical, studio premium aux Almadies.",
+    "Devenez Coach de Pilates Certifié avec Revive Académie. Formation professionnelle de haut niveau à Dakar, Sénégal. Certification Balanced Body, encadrement médical, studio premium aux Almadies.",
   keywords: [
     "formation pilates",
     "certification pilates",
     "coach pilates",
-    "senegal",
+    "sénégal",
     "dakar",
     "balanced body",
     "pilates mat",
     "pilates reformer",
   ],
-  authors: [{ name: "Revive Academie" }],
+  authors: [{ name: "Revive Académie" }],
   openGraph: {
-    title: "Revive Academie | Formation Pilates Certifiante",
+    title: "Revive Académie | Formation de Pilates Certifiante",
     description:
-      "Devenez Coach de Pilates Certifié avec Revive Academie a Dakar, Senegal.",
+      "Devenez Coach de Pilates Certifié avec Revive Académie à Dakar, Sénégal.",
     type: "website",
     locale: "fr_FR",
   },

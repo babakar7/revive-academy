@@ -27,9 +27,9 @@ export function Testimonials() {
     <section className="py-20 md:py-28 bg-[var(--color-cream)]">
       <Container size="narrow">
         <SectionHeading
-          eyebrow="Temoignages"
-          title="Ce Que Disent Nos Eleves"
-          description="Decouvrez les retours de nos anciens eleves sur leur experience de formation."
+          eyebrow="Témoignages"
+          title="Ce Que Disent Nos Élèves"
+          description="Découvrez les retours de nos anciens élèves sur leur expérience de formation."
         />
 
         <AnimateOnScroll animation="fade-up" duration={600}>
@@ -68,7 +68,7 @@ export function Testimonials() {
             <button
               onClick={goToPrevious}
               className="w-10 h-10 rounded-full bg-white border border-[var(--color-beige)] flex items-center justify-center text-[var(--color-dark)] hover:bg-[var(--color-beige)] transition-all duration-200 hover:scale-105 active:scale-95"
-              aria-label="Temoignage precedent"
+              aria-label="Témoignage précédent"
             >
               <ChevronLeft size={20} />
             </button>
@@ -85,7 +85,7 @@ export function Testimonials() {
                       ? "bg-[var(--color-primary)] w-6"
                       : "bg-[var(--color-beige)] hover:bg-[var(--color-primary)]/50"
                   )}
-                  aria-label={`Aller au temoignage ${index + 1}`}
+                  aria-label={`Aller au témoignage ${index + 1}`}
                 />
               ))}
             </div>
@@ -93,7 +93,7 @@ export function Testimonials() {
             <button
               onClick={goToNext}
               className="w-10 h-10 rounded-full bg-white border border-[var(--color-beige)] flex items-center justify-center text-[var(--color-dark)] hover:bg-[var(--color-beige)] transition-all duration-200 hover:scale-105 active:scale-95"
-              aria-label="Temoignage suivant"
+              aria-label="Témoignage suivant"
             >
               <ChevronRight size={20} />
             </button>

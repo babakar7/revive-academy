@@ -32,8 +32,8 @@ export function WhyChoose() {
       <Container>
         <SectionHeading
           eyebrow="Nos avantages"
-          title="Pourquoi Choisir Revive Academie ?"
-          description="Decouvrez ce qui fait la difference de notre formation Pilates."
+          title="Pourquoi Choisir Revive Académie ?"
+          description="Découvrez ce qui fait la différence de notre formation Pilates."
         />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

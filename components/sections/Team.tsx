@@ -11,9 +11,9 @@ export function Team() {
     <section id="equipe" className="py-20 md:py-28 bg-[var(--color-cream)]">
       <Container>
         <SectionHeading
-          eyebrow="Notre equipe"
-          title="Une Equipe Pedagogique d'Exception"
-          description="L'excellence de notre formation repose sur la complementarite de deux expertes, garantissant une approche a la fois technique et scientifique."
+          eyebrow="Notre équipe"
+          title="Une Équipe Pédagogique d'Exception"
+          description="L'excellence de notre formation repose sur la complémentarité de deux expertes, garantissant une approche à la fois technique et scientifique."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
@@ -50,7 +50,7 @@ export function Team() {
               <div className="border-t border-[var(--color-beige)] pt-6">
                 <h4 className="text-sm font-semibold text-[var(--color-dark)] mb-3 flex items-center gap-2">
                   <Award size={16} className="text-[var(--color-primary)]" />
-                  Certifications et Experience
+                  Certifications et Expérience
                 </h4>
                 <ul className="space-y-2">
                   {member.credentials.map((credential, index) => (

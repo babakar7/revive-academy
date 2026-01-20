@@ -35,7 +35,7 @@ export function Header() {
               REVIVE
             </span>
             <span className="text-xl font-light text-[var(--color-primary)] ml-1 transition-transform duration-300 group-hover:translate-x-0.5">
-              ACADEMIE
+              ACADÉMIE
             </span>
           </a>
 

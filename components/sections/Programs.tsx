@@ -15,7 +15,7 @@ export function Programs() {
         <SectionHeading
           eyebrow="Nos parcours"
           title="Formations Certifiantes"
-          description="Trois parcours conçus pour repondre a vos ambitions professionnelles. Chaque programme inclut un acces illimite au studio pendant 4 mois."
+          description="Trois parcours conçus pour répondre à vos ambitions professionnelles. Chaque programme inclut un accès illimité au studio pendant 4 mois."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
@@ -42,7 +42,7 @@ export function Programs() {
                 {program.highlighted && (
                   <div className="flex items-center gap-1 text-[var(--color-primary)] text-xs font-medium uppercase tracking-wider mb-2">
                     <Sparkles size={14} />
-                    Recommande
+                    Recommandé
                   </div>
                 )}
                 <h3 className="text-xl font-semibold text-[var(--color-dark)]">

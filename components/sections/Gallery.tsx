@@ -20,7 +20,7 @@ export function Gallery() {
         <SectionHeading
           eyebrow="Notre environnement"
           title="Galerie Photos"
-          description="Decouvrez le Studio Revive aux Almadies et son cadre exceptionnel."
+          description="Découvrez le Studio Revive aux Almadies et son cadre exceptionnel."
         />
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -57,7 +57,7 @@ export function Gallery() {
         </div>
 
         <p className="text-center text-sm text-[var(--color-dark)]/50 mt-8">
-          Photos a venir - Studio aux Almadies avec piscine, restaurant et bar
+          Photos à venir - Studio aux Almadies avec piscine, restaurant et bar
         </p>
       </Container>
     </section>
