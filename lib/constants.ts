@@ -23,7 +23,7 @@ export const HERO_CONTENT = {
   secondaryCta: "Postuler",
   badges: [
     "Formatrice certifiée Balanced Body",
-    "20+ ans d'expérience",
+    "15+ ans d'expérience",
     "Encadrement médical",
     "Studio premium",
   ],
@@ -97,7 +97,7 @@ export const TEAM = [
   {
     name: "Christine",
     role: "Lead Formatrice Pilates",
-    bio: "Spécialiste reconnue de la méthode, Christine cumule plus de 20 ans d'expérience et a déjà formé de nombreux instructeurs. Elle assure la transmission du savoir technique et pédagogique, vous guidant dans l'acquisition de la gestuelle précise et dans l'art de coacher vos futurs clients.",
+    bio: "Spécialiste reconnue de la méthode, Christine cumule plus de 15 ans d'expérience et a déjà formé de nombreux instructeurs. Elle assure la transmission du savoir technique et pédagogique, vous guidant dans l'acquisition de la gestuelle précise et dans l'art de coacher vos futurs clients.",
     credentials: [
       "Brevet d'État Éducateur Sportif (2008)",
       "Certifiée Balanced Body - Paris (2008-2009)",
