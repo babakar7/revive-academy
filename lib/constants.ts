@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
   tagline: "Devenez Coach de Pilates Certifié",
   location: "Almadies, Dakar, Sénégal",
   email: "contact@revive-academie.com",
-  phone: "+221 XX XXX XX XX",
+  phone: "+221 78 464 43 29",
 };
 
 export const NAV_LINKS = [
@@ -108,9 +108,9 @@ export const TEAM = [
     ],
   },
   {
-    name: "Dr. Soukeyna",
+    name: "Soukeyna",
     role: "Médecin, Spécialiste Anatomie et Physiologie",
-    bio: "La sécurité et la connaissance du corps sont au cœur de notre enseignement. Le Dr. Soukeyna encadre les modules d'anatomie appliquée au mouvement, vous permettant de comprendre les chaînes musculaires et les articulations sollicitées pour une pratique sans risque et un accompagnement client optimal.",
+    bio: "La sécurité et la connaissance du corps sont au cœur de notre enseignement. Soukeyna encadre les modules d'anatomie appliquée au mouvement, vous permettant de comprendre les chaînes musculaires et les articulations sollicitées pour une pratique sans risque et un accompagnement client optimal.",
     credentials: [
       "Docteur en médecine",
       "Spécialiste en anatomie et physiologie",
@@ -171,7 +171,7 @@ export const WHY_CHOOSE = [
 ];
 
 export const PRACTICAL_INFO = {
-  nextSession: "Fin mars / avril 2026",
+  nextSession: "A déterminer",
   location: "Studio Revive, Almadies, Dakar",
   frequency: "2 à 3 formations par an",
   maxParticipants: "10 participants maximum par formation",

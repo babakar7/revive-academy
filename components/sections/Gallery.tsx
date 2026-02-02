@@ -1,16 +1,16 @@
 "use client";
 
+import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { AnimateOnScroll } from "@/components/ui/AnimateOnScroll";
 
 const GALLERY_ITEMS = [
-  { id: 1, label: "Studio", aspect: "landscape" },
-  { id: 2, label: "Formation", aspect: "portrait" },
-  { id: 3, label: "Reformer", aspect: "square" },
-  { id: 4, label: "Groupe", aspect: "landscape" },
-  { id: 5, label: "Pratique", aspect: "portrait" },
-  { id: 6, label: "Piscine", aspect: "square" },
+  { id: 1, label: "Studio", aspect: "landscape", src: "/gallery/studio.jpg" },
+  { id: 2, label: "Formation", aspect: "portrait", src: "/gallery/formation.jpg" },
+  { id: 3, label: "Pratique", aspect: "square", src: "/gallery/pratique.jpg" },
+  { id: 4, label: "Groupe", aspect: "landscape", src: "/gallery/groupe.jpg" },
+  { id: 5, label: "Piscine", aspect: "square", src: "/gallery/piscine.jpg" },
 ];
 
 export function Gallery() {
@@ -36,19 +36,19 @@ export function Gallery() {
             >
               <div
                 className={`
-                  relative rounded-2xl overflow-hidden bg-gradient-to-br from-[var(--color-primary)]/20 to-[var(--color-primary)]/40 group cursor-pointer
+                  relative rounded-2xl overflow-hidden group cursor-pointer
                   ${item.aspect === "landscape" ? "aspect-video" : ""}
                   ${item.aspect === "portrait" ? "aspect-[3/4]" : ""}
                   ${item.aspect === "square" ? "aspect-square" : ""}
                 `}
               >
-                {/* Placeholder with label */}
-                <div className="absolute inset-0 flex items-center justify-center transition-transform duration-500 group-hover:scale-110">
-                  <span className="text-white/60 font-medium text-sm">
-                    {item.label}
-                  </span>
-                </div>
-
+                <Image
+                  src={item.src}
+                  alt={item.label}
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 768px) 50vw, 33vw"
+                />
                 {/* Hover overlay */}
                 <div className="absolute inset-0 bg-[var(--color-primary)]/0 group-hover:bg-[var(--color-primary)]/30 transition-colors duration-300" />
               </div>
@@ -56,9 +56,6 @@ export function Gallery() {
           ))}
         </div>
 
-        <p className="text-center text-sm text-[var(--color-dark)]/50 mt-8">
-          Photos à venir - Studio aux Almadies avec piscine, restaurant et bar
-        </p>
       </Container>
     </section>
   );
