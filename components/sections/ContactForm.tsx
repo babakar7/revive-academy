@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/Input";
 import { Textarea } from "@/components/ui/Textarea";
 import { Button } from "@/components/ui/Button";
 import { PROGRAMS } from "@/lib/constants";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { CheckCircle, Send } from "lucide-react";
 
 interface FormData {
@@ -36,6 +36,25 @@ export function ContactForm() {
   const [errors, setErrors] = useState<FormErrors>({});
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+
+  useEffect(() => {
+    // Check URL params on mount
+    const params = new URLSearchParams(window.location.search);
+    const programId = params.get("program");
+    if (programId && PROGRAMS.some((p) => p.id === programId)) {
+      setFormData((prev) => ({ ...prev, program: programId }));
+    }
+
+    // Listen for program selection from Programs section
+    const handleProgramSelected = (e: CustomEvent<string>) => {
+      setFormData((prev) => ({ ...prev, program: e.detail }));
+    };
+
+    window.addEventListener("programSelected", handleProgramSelected as EventListener);
+    return () => {
+      window.removeEventListener("programSelected", handleProgramSelected as EventListener);
+    };
+  }, []);
 
   const validate = (): boolean => {
     const newErrors: FormErrors = {};

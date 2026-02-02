@@ -101,11 +101,13 @@ export function Programs() {
               <Button
                 variant={program.highlighted ? "primary" : "outline"}
                 className="w-full mt-auto"
-                onClick={() =>
+                onClick={() => {
+                  window.history.replaceState(null, "", `?program=${program.id}#contact`);
+                  window.dispatchEvent(new CustomEvent("programSelected", { detail: program.id }));
                   document
                     .getElementById("contact")
-                    ?.scrollIntoView({ behavior: "smooth" })
-                }
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
               >
                 Choisir cette formation
               </Button>
