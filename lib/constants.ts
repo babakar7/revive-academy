@@ -159,7 +159,7 @@ export const WHY_CHOOSE = [
   {
     title: "Débouchés Concrets",
     description:
-      "Possibilité d'embauche chez Revive pour les meilleurs profils + mise en relation avec notre réseau de studios partenaires.",
+      "Possibilité d'embauche chez Revive pour les meilleurs profils + mise en relation avec notre réseau d'autres studios.",
     icon: "Briefcase",
   },
   {
@@ -230,7 +230,7 @@ export const FAQ_ITEMS = [
   {
     question: "Quels sont les débouchés après la formation ?",
     answer:
-      "Les meilleurs profils ont la possibilité d'être embauchés chez Revive. Nous proposons également une mise en relation avec notre réseau de studios partenaires. Des formations avancées (Mat 2, Reformer 2) sont prévues pour continuer votre évolution.",
+      "Les meilleurs profils ont la possibilité d'être embauchés chez Revive. Nous proposons également une mise en relation avec d'autres studios. Des formations avancées (Mat 2, Reformer 2) sont prévues pour continuer votre évolution.",
   },
 ];
 
