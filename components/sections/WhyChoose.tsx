@@ -32,7 +32,7 @@ export function WhyChoose() {
       <Container>
         <SectionHeading
           eyebrow="Nos avantages"
-          title="Pourquoi Choisir Revive Académie ?"
+          title="Pourquoi Choisir Revive Academy ?"
           description="Découvrez ce qui fait la différence de notre formation Pilates."
         />
 

@@ -1,8 +1,8 @@
 export const SITE_CONFIG = {
-  name: "Revive Académie",
+  name: "Revive Academy",
   tagline: "Devenez Coach de Pilates Certifié",
   location: "Almadies, Dakar, Sénégal",
-  email: "contact@revive-academie.com",
+  email: "contact@revive-academy.com",
   phone: "+221 78 464 43 29",
 };
 
@@ -175,7 +175,7 @@ export const PRACTICAL_INFO = {
   location: "Studio Revive, Almadies, Dakar",
   frequency: "2 à 3 formations par an",
   maxParticipants: "10 participants maximum par formation",
-  certification: "Diplôme Revive Académie",
+  certification: "Diplôme Revive Academy",
   enrollmentSteps: [
     {
       step: 1,
@@ -215,7 +215,7 @@ export const FAQ_ITEMS = [
   {
     question: "Le diplôme est-il reconnu ?",
     answer:
-      "Vous obtenez le Diplôme Revive Académie, délivré par une formatrice certifiée Balanced Body, référence mondiale du Pilates. Cette certification vous permet d'exercer en tant qu'instructeur Pilates.",
+      "Vous obtenez le Diplôme Revive Academy, délivré par une formatrice certifiée Balanced Body, référence mondiale du Pilates. Cette certification vous permet d'exercer en tant qu'instructeur Pilates.",
   },
   {
     question: "Quelles sont les modalités de paiement ?",

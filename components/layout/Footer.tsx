@@ -12,7 +12,7 @@ export function Footer() {
             <div className="flex items-center mb-4">
               <span className="text-xl font-semibold">REVIVE</span>
               <span className="text-xl font-light text-[var(--color-primary-light)] ml-1">
-                ACADÉMIE
+                ACADEMY
               </span>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">

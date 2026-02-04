@@ -250,7 +250,7 @@ export function ContactForm() {
 
             <p className="text-xs text-center text-[var(--color-dark)]/50">
               En soumettant ce formulaire, vous acceptez d&apos;être contacté par
-              Revive Académie concernant votre candidature.
+              Revive Academy concernant votre candidature.
             </p>
           </form>
         </div>

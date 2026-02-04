@@ -71,7 +71,7 @@ const SLIDES = [
     id: 8,
     title: "Prêt(e) à transformer votre passion en métier ?",
     contact: {
-      email: "contact@revive-academie.com",
+      email: "contact@revive-academy.com",
       phone: "+221 78 464 43 29",
     },
     cta: "Lien en bio",
@@ -108,7 +108,7 @@ export default function CarouselPage() {
           <div className="w-8 h-8 rounded-full bg-gradient-to-br from-[#8B7355] to-[#6B5344] flex items-center justify-center text-white text-xs font-bold">
             R
           </div>
-          <span className="font-semibold text-sm">revive_academie</span>
+          <span className="font-semibold text-sm">revive_academy</span>
         </div>
 
         {/* Slide Content - 1:1 aspect ratio */}
@@ -226,7 +226,7 @@ export default function CarouselPage() {
             <span className="text-2xl">➤</span>
           </div>
           <p className="text-sm">
-            <span className="font-semibold">revive_academie</span>{" "}
+            <span className="font-semibold">revive_academy</span>{" "}
             <span className="text-gray-600">
               Devenez Coach de Pilates Certifié à Dakar 🧘‍♀️
             </span>
