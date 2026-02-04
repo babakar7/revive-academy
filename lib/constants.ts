@@ -35,8 +35,8 @@ export const PROGRAMS = [
     name: "Pilates MAT 1",
     subtitle: "Fondamentaux au Tapis",
     duration: "97 heures",
-    price: "1 250",
-    currency: "EUR",
+    price: "820 000",
+    currency: "FCFA",
     description:
       "La porte d'entrée indispensable pour comprendre la biomécanique du corps et les principes originels de Joseph Pilates. Maîtrisez le répertoire Basic et Intermédiaire des exercices au tapis.",
     content: [
@@ -55,8 +55,8 @@ export const PROGRAMS = [
     name: "Pilates REFORMER 1",
     subtitle: "Formation Machine",
     duration: "80 heures",
-    price: "1 900",
-    currency: "EUR",
+    price: "1 250 000",
+    currency: "FCFA",
     description:
       "Apprenez à enseigner sur la machine emblématique du Pilates. Le Reformer offre une résistance et une précision inégalées pour accompagner tous types de clients.",
     content: [
@@ -75,16 +75,16 @@ export const PROGRAMS = [
     name: "PACK CARRIÈRE",
     subtitle: "Mat + Reformer",
     duration: "177 heures",
-    price: "2 835",
-    currency: "EUR",
-    originalPrice: "3 150",
+    price: "1 860 000",
+    currency: "FCFA",
+    originalPrice: "2 070 000",
     discount: "-10%",
     description:
       "Le parcours complet pour devenir un instructeur Pilates polyvalent. Combinez les deux formations pour une maîtrise totale de la méthode.",
     content: [
       "Formation MAT 1 complète (97h)",
       "Formation REFORMER 1 complète (80h)",
-      "Économie de 315 EUR sur le tarif global",
+      "Économie de 210 000 FCFA sur le tarif global",
       "Accompagnement prioritaire",
       "Accès à tous les manuels et ressources",
     ],

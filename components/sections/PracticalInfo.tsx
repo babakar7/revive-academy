@@ -36,7 +36,7 @@ export function PracticalInfo() {
                   delay={index * 100}
                   duration={500}
                 >
-                  <div className="bg-white rounded-xl p-5 flex items-start gap-4 shadow-sm border border-[var(--color-cream)] transition-all duration-300 hover:shadow-md hover:-translate-x-1">
+                  <div className="bg-[var(--color-white)] rounded-xl p-5 flex items-start gap-4 shadow-sm border border-[var(--color-cream)] transition-all duration-300 hover:shadow-md hover:-translate-x-1">
                     <div className="w-10 h-10 rounded-lg bg-[var(--color-primary)]/10 flex items-center justify-center shrink-0">
                       <Icon size={20} className="text-[var(--color-primary)]" />
                     </div>
@@ -56,7 +56,7 @@ export function PracticalInfo() {
 
           {/* Enrollment Process */}
           <AnimateOnScroll animation="slide-left" delay={200} duration={600}>
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-[var(--color-cream)] h-full">
+            <div className="bg-[var(--color-white)] rounded-2xl p-8 shadow-sm border border-[var(--color-cream)] h-full">
               <h3 className="text-xl font-semibold text-[var(--color-dark)] mb-6">
                 Processus d&apos;inscription
               </h3>

@@ -46,7 +46,7 @@ export function WhyChoose() {
                 delay={index * 75}
                 duration={500}
               >
-                <div className="bg-white rounded-2xl p-6 shadow-sm border border-[var(--color-cream)] transition-all duration-300 hover:shadow-md hover:-translate-y-1 h-full">
+                <div className="bg-[var(--color-white)] rounded-2xl p-6 shadow-sm border border-[var(--color-cream)] transition-all duration-300 hover:shadow-md hover:-translate-y-1 h-full">
                   <div className="w-12 h-12 rounded-xl bg-[var(--color-primary)]/10 flex items-center justify-center mb-4 transition-transform duration-300 group-hover:scale-110">
                     <Icon size={24} className="text-[var(--color-primary)]" />
                   </div>

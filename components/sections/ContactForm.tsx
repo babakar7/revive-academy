@@ -131,7 +131,7 @@ export function ContactForm() {
     return (
       <section id="contact" className="py-20 md:py-28 bg-[var(--color-cream)]">
         <Container size="narrow">
-          <div className="bg-white rounded-2xl p-8 md:p-12 shadow-sm border border-[var(--color-beige)] text-center">
+          <div className="bg-[var(--color-white)] rounded-2xl p-8 md:p-12 shadow-sm border border-[var(--color-beige)] text-center">
             <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-6">
               <CheckCircle size={32} className="text-green-600" />
             </div>
@@ -157,7 +157,7 @@ export function ContactForm() {
           description="Remplissez le formulaire ci-dessous pour démarrer votre candidature. Nous vous contacterons pour planifier votre entretien."
         />
 
-        <div className="bg-white rounded-2xl p-6 md:p-10 shadow-sm border border-[var(--color-beige)]">
+        <div className="bg-[var(--color-white)] rounded-2xl p-6 md:p-10 shadow-sm border border-[var(--color-beige)]">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Input
@@ -204,7 +204,7 @@ export function ContactForm() {
                   name="program"
                   value={formData.program}
                   onChange={handleChange}
-                  className={`w-full px-4 py-3 rounded-xl border bg-white text-[var(--color-dark)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent transition-all duration-200 ${
+                  className={`w-full px-4 py-3 rounded-xl border bg-[var(--color-white)] text-[var(--color-dark)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent transition-all duration-200 ${
                     errors.program ? "border-red-500" : "border-[var(--color-beige)]"
                   }`}
                 >

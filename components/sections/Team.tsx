@@ -25,7 +25,7 @@ export function Team() {
               duration={600}
             >
             <div
-              className="bg-white rounded-2xl p-8 shadow-sm border border-[var(--color-beige)] h-full transition-shadow duration-300 hover:shadow-lg"
+              className="bg-[var(--color-white)] rounded-2xl p-8 shadow-sm border border-[var(--color-beige)] h-full transition-shadow duration-300 hover:shadow-lg"
             >
               {/* Avatar Placeholder */}
               <div className="w-24 h-24 rounded-full bg-gradient-to-br from-[var(--color-primary)] to-[var(--color-primary-dark)] flex items-center justify-center mb-6">

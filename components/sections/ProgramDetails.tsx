@@ -24,7 +24,7 @@ export function ProgramDetails() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* MAT 1 */}
           <AnimateOnScroll animation="fade-up" delay={0} duration={600}>
-          <div className="bg-white rounded-2xl p-8 h-full">
+          <div className="bg-[var(--color-white)] rounded-2xl p-8 h-full">
             <div className="mb-6">
               <span className="inline-block bg-[var(--color-primary)]/10 text-[var(--color-primary)] text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full mb-3">
                 Formation 1
@@ -78,7 +78,7 @@ export function ProgramDetails() {
 
           {/* REFORMER 1 */}
           <AnimateOnScroll animation="fade-up" delay={150} duration={600}>
-          <div className="bg-white rounded-2xl p-8 h-full">
+          <div className="bg-[var(--color-white)] rounded-2xl p-8 h-full">
             <div className="mb-6">
               <span className="inline-block bg-[var(--color-primary)]/10 text-[var(--color-primary)] text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full mb-3">
                 Formation 2
