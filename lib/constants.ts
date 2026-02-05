@@ -69,7 +69,7 @@ export const PROGRAMS = [
       "2h de coaching privé",
       "Manuel de formation + plateforme e-learning",
     ],
-    prerequisite: "Certification Mat 1 + 5h de pratique personnelle sur Reformer.",
+    prerequisite: "Certification Mat 1 + 5h de séances sur Reformer.",
     highlighted: false,
   },
   {
@@ -207,7 +207,7 @@ export const FAQ_ITEMS = [
   {
     question: "Quels sont les prérequis pour rejoindre la formation ?",
     answer:
-      "Pour la formation MAT 1, un entretien motivationnel est nécessaire pour évaluer votre projet et vos bases. Pour la formation REFORMER 1, vous devez avoir obtenu la certification Mat 1 et avoir effectué 5h de pratique personnelle sur Reformer.",
+      "Pour la formation MAT 1, un entretien motivationnel est nécessaire pour évaluer votre projet et vos bases. Pour la formation REFORMER 1, vous devez avoir obtenu la certification Mat 1 et avoir effectué 5h de séances sur Reformer.",
   },
   {
     question: "Comment se déroule la formation ?",
