@@ -33,13 +33,13 @@ export const PROGRAMS = [
   {
     id: "mat1",
     name: "Pilates MAT 1",
-    subtitle: "Fondamentaux au Tapis",
+    subtitle: "Fondamentaux de la méthode pilates",
     duration: "97 heures",
     sessionDates: "Lundi 30 Mars au Samedi 4 Avril",
     price: "820 000",
     currency: "FCFA",
     description:
-      "La porte d'entrée indispensable pour comprendre la biomécanique du corps et les principes originels de Joseph Pilates. Maîtrisez le répertoire Basic et Intermédiaire des exercices au tapis.",
+      "  Le Mat n'est pas une option, c'est l'ADN de la méthode : aucune maîtrise des machines n'est complète sans cette fondation originelle. Comprenez la biomécanique du corps et les principes originels de Joseph Pilates. Maîtrisez le répertoire Basic et Intermédiaire des exercices au tapis.",
     content: [
       "40h de séminaires théoriques et pratiques",
       "20h de cours individuels",
