@@ -7,7 +7,7 @@ import { PRACTICAL_INFO } from "@/lib/constants";
 import { Calendar, MapPin, Users, Award, Clock } from "lucide-react";
 
 const infoItems = [
-  { icon: Calendar, title: "Prochaine session", key: "nextSession" },
+  { icon: Calendar, title: "Prochaines sessions", key: "nextSession" },
   { icon: MapPin, title: "Lieu", key: "location" },
   { icon: Clock, title: "Fréquence", key: "frequency" },
   { icon: Users, title: "Effectif", key: "maxParticipants" },

@@ -6,7 +6,7 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { AnimateOnScroll } from "@/components/ui/AnimateOnScroll";
 import { PROGRAMS } from "@/lib/constants";
-import { Check, Clock, Sparkles } from "lucide-react";
+import { Check, Clock, Sparkles, Calendar } from "lucide-react";
 
 export function Programs() {
   return (
@@ -70,10 +70,18 @@ export function Programs() {
                 )}
               </div>
 
-              {/* Duration */}
-              <div className="flex items-center gap-2 text-sm text-[var(--color-dark)]/70 mb-6 pb-6 border-b border-[var(--color-beige)]">
-                <Clock size={16} />
-                <span>{program.duration}</span>
+              {/* Duration & Session Dates */}
+              <div className="mb-6 pb-6 border-b border-[var(--color-beige)] space-y-2">
+                <div className="flex items-center gap-2 text-sm text-[var(--color-dark)]/70">
+                  <Clock size={16} />
+                  <span>{program.duration}</span>
+                </div>
+                {program.sessionDates && (
+                  <div className="flex items-center gap-2 text-sm text-[var(--color-primary)] font-medium">
+                    <Calendar size={16} />
+                    <span>{program.sessionDates}</span>
+                  </div>
+                )}
               </div>
 
               {/* Description */}

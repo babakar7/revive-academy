@@ -4,7 +4,7 @@ import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { AnimateOnScroll } from "@/components/ui/AnimateOnScroll";
 import { PROGRAMS } from "@/lib/constants";
-import { Check, AlertCircle } from "lucide-react";
+import { Check, AlertCircle, Calendar } from "lucide-react";
 
 export function ProgramDetails() {
   const mat1 = PROGRAMS.find((p) => p.id === "mat1");
@@ -35,6 +35,12 @@ export function ProgramDetails() {
               <p className="text-[var(--color-dark)]/60 mt-1">
                 {mat1.subtitle} - {mat1.duration}
               </p>
+              {mat1.sessionDates && (
+                <div className="flex items-center gap-2 text-sm text-[var(--color-primary)] font-medium mt-2">
+                  <Calendar size={16} />
+                  <span>{mat1.sessionDates}</span>
+                </div>
+              )}
             </div>
 
             <p className="text-[var(--color-dark)]/70 mb-6 leading-relaxed">
@@ -89,6 +95,12 @@ export function ProgramDetails() {
               <p className="text-[var(--color-dark)]/60 mt-1">
                 {reformer1.subtitle} - {reformer1.duration}
               </p>
+              {reformer1.sessionDates && (
+                <div className="flex items-center gap-2 text-sm text-[var(--color-primary)] font-medium mt-2">
+                  <Calendar size={16} />
+                  <span>{reformer1.sessionDates}</span>
+                </div>
+              )}
             </div>
 
             <p className="text-[var(--color-dark)]/70 mb-6 leading-relaxed">

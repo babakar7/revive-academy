@@ -35,12 +35,13 @@ export const PROGRAMS = [
     name: "Pilates MAT 1",
     subtitle: "Fondamentaux au Tapis",
     duration: "97 heures",
+    sessionDates: "Lundi 30 Mars au Samedi 4 Avril",
     price: "820 000",
     currency: "FCFA",
     description:
       "La porte d'entrée indispensable pour comprendre la biomécanique du corps et les principes originels de Joseph Pilates. Maîtrisez le répertoire Basic et Intermédiaire des exercices au tapis.",
     content: [
-      "45h de séminaires théoriques et pratiques",
+      "40h de séminaires théoriques et pratiques",
       "20h de cours individuels",
       "20h de cours collectifs",
       "10h d'observation en situation réelle",
@@ -55,6 +56,7 @@ export const PROGRAMS = [
     name: "Pilates REFORMER 1",
     subtitle: "Formation Machine",
     duration: "82 heures",
+    sessionDates: "Mercredi 8 Avril au Samedi 12 Avril",
     price: "1 250 000",
     currency: "FCFA",
     description:
@@ -171,7 +173,7 @@ export const WHY_CHOOSE = [
 ];
 
 export const PRACTICAL_INFO = {
-  nextSession: "A déterminer",
+  nextSession: "Lundi 30 Mars au Dimanche 12 Avril (2 semaines)",
   location: "Studio Revive, Almadies, Dakar",
   frequency: "2 à 3 formations par an",
   maxParticipants: "10 participants maximum par formation",
@@ -211,6 +213,11 @@ export const FAQ_ITEMS = [
     question: "Comment se déroule la formation ?",
     answer:
       "La formation s'organise en deux phases : une période intensive de 3 semaines pour les séminaires et cours encadrés, suivie d'une période de pratique libre au studio ou à distance jusqu'à l'examen final. Cette flexibilité vous permet de progresser à votre rythme.",
+  },
+  {
+    question: "Comment se déroulent les examens ?",
+    answer:
+      "L'examen de certification peut se dérouler en présentiel ou en ligne et comprend trois épreuves : un QCM théorique sur l'anatomie, une mise en pratique individuelle au choix du jury, et 20 à 30 minutes d'enseignement pédagogique.",
   },
   {
     question: "Le diplôme est-il reconnu ?",
