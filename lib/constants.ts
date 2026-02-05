@@ -75,8 +75,9 @@ export const PROGRAMS = [
   {
     id: "pack",
     name: "PACK CARRIÈRE",
-    subtitle: "Mat + Reformer",
+    subtitle: "Mat 1 + Reformer 1",
     duration: "177 heures",
+    sessionDates: "Lundi 30 Mars au Samedi 12 Avril",
     price: "1 860 000",
     currency: "FCFA",
     originalPrice: "2 070 000",
@@ -85,7 +86,7 @@ export const PROGRAMS = [
       "Le parcours complet pour devenir un instructeur Pilates polyvalent. Combinez les deux formations pour ouvrir tout le champ des possiblités en tant qu'instructeur.",
     content: [
       "Formation MAT 1 complète (97h)",
-      "Formation REFORMER 1 complète (80h)",
+      "Formation REFORMER 1 complète (82h)",
       "Économie de 210 000 FCFA sur le tarif global",
       "Accompagnement prioritaire",
       "Accès à tous les manuels et ressources",
