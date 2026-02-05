@@ -54,7 +54,7 @@ export const PROGRAMS = [
     id: "reformer1",
     name: "Pilates REFORMER 1",
     subtitle: "Formation Machine",
-    duration: "80 heures",
+    duration: "82 heures",
     price: "1 250 000",
     currency: "FCFA",
     description:
@@ -80,7 +80,7 @@ export const PROGRAMS = [
     originalPrice: "2 070 000",
     discount: "-10%",
     description:
-      "Le parcours complet pour devenir un instructeur Pilates polyvalent. Combinez les deux formations pour une maîtrise totale de la méthode.",
+      "Le parcours complet pour devenir un instructeur Pilates polyvalent. Combinez les deux formations pour ouvrir tout le champ des possiblités en tant qu'instructeur.",
     content: [
       "Formation MAT 1 complète (97h)",
       "Formation REFORMER 1 complète (80h)",
@@ -159,7 +159,7 @@ export const WHY_CHOOSE = [
   {
     title: "Débouchés Concrets",
     description:
-      "Possibilité d'embauche chez Revive pour les meilleurs profils + mise en relation avec notre réseau d'autres studios.",
+      "Possibilité d'embauche chez Revive pour les certains profils + mise en relation avec notre réseau d'autres studios.",
     icon: "Briefcase",
   },
   {
@@ -230,7 +230,7 @@ export const FAQ_ITEMS = [
   {
     question: "Quels sont les débouchés après la formation ?",
     answer:
-      "Les meilleurs profils ont la possibilité d'être embauchés chez Revive. Nous proposons également une mise en relation avec d'autres studios. Des formations avancées (Mat 2, Reformer 2) sont prévues pour continuer votre évolution.",
+      "Certains profils ont la possibilité d'être embauchés chez Revive. Nous proposons également une mise en relation avec d'autres studios. Des formations avancées (Mat 2, Reformer 2) sont prévues pour continuer votre évolution.",
   },
 ];
 
