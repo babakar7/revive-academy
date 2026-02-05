@@ -228,7 +228,7 @@ export const FAQ_ITEMS = [
   {
     question: "Quelles sont les modalités de paiement ?",
     answer:
-      "Le règlement intégral est requis pour confirmer votre place. Contactez-nous pour discuter des possibilités de paiement échelonné selon votre situation.",
+      "Le règlement intégral est requis pour confirmer votre place.",
   },
   {
     question: "Puis-je me loger sur place ?",
