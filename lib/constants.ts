@@ -213,7 +213,7 @@ export const FAQ_ITEMS = [
   {
     question: "Comment se déroule la formation ?",
     answer:
-      "La formation s'organise en deux phases : une période intensive de 3 semaines pour les séminaires et cours encadrés, suivie d'une période de pratique libre au studio ou à distance jusqu'à l'examen final. Cette flexibilité vous permet de progresser à votre rythme.",
+      "La formation s'organise en deux phases : une période intensive de 2 semaines pour les séminaires et cours encadrés, suivie d'une période de pratique libre au studio ou à distance jusqu'à l'examen final. Cette flexibilité vous permet de progresser à votre rythme.",
   },
   {
     question: "Comment se déroulent les examens ?",
