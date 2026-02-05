@@ -115,7 +115,7 @@ export const TEAM = [
     role: "Médecin, Spécialiste Anatomie et Physiologie",
     bio: "La sécurité et la connaissance du corps sont au cœur de notre enseignement. Soukeyna encadre les modules d'anatomie appliquée au mouvement, vous permettant de comprendre les chaînes musculaires et les articulations sollicitées pour une pratique sans risque et un accompagnement client optimal.",
     credentials: [
-      "Docteur en médecine",
+      "Médecin",
       "Spécialiste en anatomie et physiologie",
       "Expert en biomécanique du mouvement",
     ],
