@@ -173,7 +173,7 @@ export const WHY_CHOOSE = [
 ];
 
 export const PRACTICAL_INFO = {
-  nextSession: "Lundi 30 Mars au Dimanche 12 Avril (2 semaines)",
+  nextSession: "Lundi 30 Mars et Mercredi 8 Avril",
   location: "Studio Revive, Almadies, Dakar",
   frequency: "2 à 3 formations par an",
   maxParticipants: "10 participants maximum par formation",
