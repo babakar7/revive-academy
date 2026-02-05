@@ -161,7 +161,7 @@ export const WHY_CHOOSE = [
   {
     title: "Débouchés Concrets",
     description:
-      "Possibilité d'embauche chez Revive pour les certains profils + mise en relation avec notre réseau d'autres studios.",
+      "Possibilité d'embauche chez Revive pour certains profils + mise en relation avec notre réseau d'autres studios.",
     icon: "Briefcase",
   },
   {
