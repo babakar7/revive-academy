@@ -16,7 +16,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              L&apos;académie de formation Pilates de haut niveau au Sénégal. Devenez
+              Revive Academy est une école de formation Pilates de haut niveau au Sénégal. Devenez
               coach certifié avec une formation d&apos;excellence.
             </p>
           </div>
