@@ -138,7 +138,7 @@ export const WHY_CHOOSE = [
   {
     title: "Qualité Garantie",
     description:
-      "Sessions limitées à 10 participants maximum pour assurer un suivi personnalisé, des corrections individuelles et une progression optimale.",
+      "Places limitées pour assurer un suivi personnalisé, des corrections individuelles et une progression optimale.",
     icon: "Users",
   },
   {
@@ -177,7 +177,7 @@ export const PRACTICAL_INFO = {
   nextSession: "Lundi 30 Mars et Mercredi 8 Avril",
   location: "Studio Revive, Almadies, Dakar",
   frequency: "2 à 3 formations par an",
-  maxParticipants: "10 participants maximum par formation",
+  maxParticipants: "Places limitées",
   certification: "Diplôme Revive Academy",
   enrollmentSteps: [
     {
