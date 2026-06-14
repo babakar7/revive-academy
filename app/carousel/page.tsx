@@ -8,7 +8,7 @@ const SLIDES = [
   {
     id: 1,
     title: "Devenez Coach de Pilates Certifié",
-    subtitle: "La seule formation au Sénégal avec encadrement médical",
+    subtitle: "Formation Mat 1 & Reformer 1 — du 27 juin au 10 juillet",
     image: "/gallery/formation.jpg",
     flag: "🇸🇳",
   },
@@ -44,9 +44,9 @@ const SLIDES = [
   },
   {
     id: 5,
-    title: "Encadrement médical unique",
+    title: "Anatomie appliquée au mouvement",
     subtitle:
-      "Un médecin dans l'équipe pédagogique pour une approche sécurisée et scientifique du mouvement.",
+      "Des modules d'anatomie intégrés à la formation pour une approche sécurisée et scientifique du mouvement.",
     image: "/gallery/pratique.jpg",
   },
   {

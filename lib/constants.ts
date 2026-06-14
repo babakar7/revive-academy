@@ -24,7 +24,7 @@ export const HERO_CONTENT = {
   badges: [
     "Formatrice certifiée Balanced Body",
     "15+ ans d'expérience",
-    "Encadrement médical",
+    "Anatomie appliquée",
     "Studio premium",
   ],
 };
@@ -35,12 +35,13 @@ export const PROGRAMS = [
     name: "Pilates MAT 1",
     subtitle: "Fondamentaux de la méthode pilates",
     duration: "97 heures",
-    sessionDates: "Lundi 30 Mars au Samedi 4 Avril",
+    sessionDates: "Samedi 27 Juin au Vendredi 3 Juillet",
     price: "820 000",
     currency: "FCFA",
     description:
       "  Le Mat n'est pas une option, c'est l'ADN de la méthode : aucune maîtrise des machines n'est complète sans cette fondation originelle. Comprenez la biomécanique du corps et les principes originels de Joseph Pilates. Maîtrisez le répertoire Basic et Intermédiaire des exercices au tapis.",
     content: [
+      "3 jours de théorie + 3 jours de pratique encadrée",
       "40h de séminaires théoriques et pratiques",
       "20h de cours individuels",
       "20h de cours collectifs",
@@ -56,12 +57,13 @@ export const PROGRAMS = [
     name: "Pilates REFORMER 1",
     subtitle: "Formation Machine",
     duration: "82 heures",
-    sessionDates: "Mercredi 8 Avril au Samedi 12 Avril",
+    sessionDates: "Samedi 4 Juillet au Vendredi 10 Juillet",
     price: "1 250 000",
     currency: "FCFA",
     description:
       "Apprenez à enseigner sur la machine emblématique du Pilates. Le Reformer offre une résistance et une précision inégalées pour accompagner tous types de clients.",
     content: [
+      "3 jours de théorie + 3 jours de pratique encadrée",
       "30h de séminaires spécialisés Reformer",
       "20h de cours individuels sur machine",
       "20h de cours collectifs",
@@ -77,7 +79,7 @@ export const PROGRAMS = [
     name: "PACK CARRIÈRE",
     subtitle: "Mat 1 + Reformer 1",
     duration: "177 heures",
-    sessionDates: "Lundi 30 Mars au Samedi 12 Avril",
+    sessionDates: "Samedi 27 Juin au Vendredi 10 Juillet",
     price: "1 860 000",
     currency: "FCFA",
     originalPrice: "2 070 000",
@@ -100,24 +102,15 @@ export const TEAM = [
   {
     name: "Christine",
     role: "Lead Formatrice Pilates",
-    bio: "Spécialiste reconnue de la méthode, Christine cumule plus de 15 ans d'expérience et a déjà formé de nombreux instructeurs. Elle assure la transmission du savoir technique et pédagogique, vous guidant dans l'acquisition de la gestuelle précise et dans l'art de coacher vos futurs clients.",
+    bio: "Spécialiste reconnue de la méthode, Christine cumule plus de 15 ans d'expérience et a déjà formé de nombreux instructeurs. Elle assure l'intégralité de la formation, de la transmission du savoir technique et pédagogique jusqu'aux modules d'anatomie appliquée au mouvement, vous guidant dans l'acquisition de la gestuelle précise et dans l'art de coacher vos futurs clients.",
     credentials: [
       "Brevet d'État Éducateur Sportif (2008)",
       "Certifiée Balanced Body - Paris (2008-2009)",
       "Certifiée Pilates Harmonie - Marseille (2009-2010)",
       "Certifiée Yamuna Body Rolling - Milan (2012)",
+      "Expertise en anatomie et biomécanique du mouvement",
       "15+ années d'expérience en enseignement du Pilates",
       "Formatrice d'instructeurs confirmée",
-    ],
-  },
-  {
-    name: "Soukeyna",
-    role: "Médecin, Spécialiste Anatomie et Physiologie",
-    bio: "La sécurité et la connaissance du corps sont au cœur de notre enseignement. Soukeyna encadre les modules d'anatomie appliquée au mouvement, vous permettant de comprendre les chaînes musculaires et les articulations sollicitées pour une pratique sans risque et un accompagnement client optimal.",
-    credentials: [
-      "Médecin",
-      "Spécialiste en anatomie et physiologie",
-      "Expert en biomécanique du mouvement",
     ],
   },
 ];
@@ -130,9 +123,9 @@ export const WHY_CHOOSE = [
     icon: "Globe",
   },
   {
-    title: "Encadrement Médical Unique",
+    title: "Anatomie Appliquée au Mouvement",
     description:
-      "Formation avec un médecin dans l'équipe pédagogique pour une approche sécurisée et scientifique du mouvement.",
+      "Des modules d'anatomie intégrés à la formation pour une approche sécurisée et scientifique du mouvement, des chaînes musculaires aux articulations sollicitées.",
     icon: "Heart",
   },
   {
@@ -174,7 +167,7 @@ export const WHY_CHOOSE = [
 ];
 
 export const PRACTICAL_INFO = {
-  nextSession: "Lundi 30 Mars et Mercredi 8 Avril",
+  nextSession: "Du 27 Juin au 10 Juillet",
   location: "Studio Revive, Almadies, Dakar",
   frequency: "2 à 3 formations par an",
   maxParticipants: "Places limitées",

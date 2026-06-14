@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Revive Academy | Formation de Pilates Certifiante au Sénégal",
   description:
-    "Devenez Coach de Pilates Certifié avec Revive Academy. Formation professionnelle de haut niveau à Dakar, Sénégal. Certification Balanced Body, encadrement médical, studio premium aux Almadies.",
+    "Devenez Coach de Pilates Certifié avec Revive Academy. Formation professionnelle de haut niveau à Dakar, Sénégal. Certification Balanced Body, anatomie appliquée, studio premium aux Almadies. Session du 27 juin au 10 juillet.",
   keywords: [
     "formation pilates",
     "certification pilates",

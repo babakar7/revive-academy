@@ -11,12 +11,12 @@ export function Team() {
     <section id="equipe" className="py-20 md:py-28 bg-[var(--color-cream)]">
       <Container>
         <SectionHeading
-          eyebrow="Notre équipe"
-          title="Une Équipe Pédagogique d'Exception"
-          description="L'excellence de notre formation repose sur la complémentarité de deux expertes, garantissant une approche à la fois technique et scientifique."
+          eyebrow="Votre formatrice"
+          title="Une Expertise Pédagogique d'Exception"
+          description="L'excellence de notre formation repose sur l'expertise de Christine, qui assure l'ensemble du cursus pour une approche à la fois technique, pédagogique et scientifique."
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="max-w-2xl mx-auto">
           {TEAM.map((member, index) => (
             <AnimateOnScroll
               key={member.name}
