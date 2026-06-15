@@ -60,9 +60,9 @@ const SLIDES = [
     id: 7,
     title: "Nos formations",
     programs: [
-      { name: "MAT 1", price: "820 000 FCFA", icon: "📘" },
-      { name: "REFORMER 1", price: "1 250 000 FCFA", icon: "📗" },
-      { name: "PACK CARRIÈRE", price: "1 860 000 FCFA", icon: "⭐", badge: "-10%" },
+      { name: "MAT 1", price: "600 000 FCFA", icon: "📘" },
+      { name: "REFORMER 1", price: "1 200 000 FCFA", icon: "📗" },
+      { name: "PACK CARRIÈRE", price: "1 500 000 FCFA", icon: "⭐", badge: "-17%" },
     ],
     image: null,
     gradient: "from-[#2d3436] to-[#636e72]",

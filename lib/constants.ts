@@ -36,7 +36,7 @@ export const PROGRAMS = [
     subtitle: "Fondamentaux de la méthode pilates",
     duration: "97 heures",
     sessionDates: "Samedi 27 Juin au Vendredi 3 Juillet",
-    price: "820 000",
+    price: "600 000",
     currency: "FCFA",
     description:
       "  Le Mat n'est pas une option, c'est l'ADN de la méthode : aucune maîtrise des machines n'est complète sans cette fondation originelle. Comprenez la biomécanique du corps et les principes originels de Joseph Pilates. Maîtrisez le répertoire Basic et Intermédiaire des exercices au tapis.",
@@ -58,7 +58,7 @@ export const PROGRAMS = [
     subtitle: "Formation Machine",
     duration: "82 heures",
     sessionDates: "Samedi 4 Juillet au Vendredi 10 Juillet",
-    price: "1 250 000",
+    price: "1 200 000",
     currency: "FCFA",
     description:
       "Apprenez à enseigner sur la machine emblématique du Pilates. Le Reformer offre une résistance et une précision inégalées pour accompagner tous types de clients.",
@@ -80,16 +80,16 @@ export const PROGRAMS = [
     subtitle: "Mat 1 + Reformer 1",
     duration: "177 heures",
     sessionDates: "Samedi 27 Juin au Vendredi 10 Juillet",
-    price: "1 860 000",
+    price: "1 500 000",
     currency: "FCFA",
-    originalPrice: "2 070 000",
-    discount: "-10%",
+    originalPrice: "1 800 000",
+    discount: "-17%",
     description:
       "Le parcours complet pour devenir un instructeur Pilates polyvalent. Combinez les deux formations pour ouvrir tout le champ des possiblités en tant qu'instructeur.",
     content: [
       "Formation MAT 1 complète (97h)",
       "Formation REFORMER 1 complète (82h)",
-      "Économie de 210 000 FCFA sur le tarif global",
+      "Économie de 300 000 FCFA sur le tarif global",
       "Accompagnement prioritaire",
       "Accès à tous les manuels et ressources",
     ],
